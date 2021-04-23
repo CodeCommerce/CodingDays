@@ -67,7 +67,7 @@ final class Report
      * @param DateFilter $dateBetween
      * @param int        $limit
      *
-     * @return Report[]
+     * @return \CodingDays\Dashboard\Report\DataType\Report[]
      * @throws Exception
      */
     public function reportTopProductsByDateDiff(DateFilter $dateBetween, int $limit = 50): array
